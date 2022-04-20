@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const db = "mongodb+srv://techspotlabs:kuzco555@techspotlabscluster.k06vf.mongodb.net/dummyapi"
+const db = ""
 const dbConnect = async () => {
     try {
         await mongoose.connect(db);
