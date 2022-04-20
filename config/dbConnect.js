@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const db = ""
+const db = ""//Enter mongo DB URI here
 const dbConnect = async () => {
     try {
         await mongoose.connect(db);
